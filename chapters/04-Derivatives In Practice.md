@@ -2,7 +2,7 @@
 
 Using derivatives, problems, conceptual tools
 
-<details class="widget-box" open>
+<details class="widget-box">
   <summary class="widget-header">Interactive: Random Sample Space Exploration</summary>
   <div class="widget-body">
     <canvas id="wave-chart" height="220"></canvas>

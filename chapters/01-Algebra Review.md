@@ -1,7 +1,6 @@
 ## Algrebra Review
 
-This chapter will hope to cover most of the algebra background you will need to be able to thoroughly understand introductory calculus. We will quickly cover what functions are, what domains are, typical functions we will use 
-a lot, function notation, and useful ways for converting problems into math problems along with the opposite.
+This chapter will hope to cover most of the algebra background you will need to be able to thoroughly understand introductory calculus. We will quickly cover what functions are, what domains are, typical functions we will use, function notation, and useful ways for converting problems into math problems.
 
 ### Functions, Domains, and other Vocab
 What is a function...  
