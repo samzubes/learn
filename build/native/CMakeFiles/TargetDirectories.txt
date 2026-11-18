@@ -1,0 +1,3 @@
+/Users/sam/Documents/Personal/Main/Developing_Learn/Learn/build/native/CMakeFiles/simulation.dir
+/Users/sam/Documents/Personal/Main/Developing_Learn/Learn/build/native/CMakeFiles/edit_cache.dir
+/Users/sam/Documents/Personal/Main/Developing_Learn/Learn/build/native/CMakeFiles/rebuild_cache.dir

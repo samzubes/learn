@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="layout">
+  <div id="mouse-hover-sidebar-toggle"></div>
+
+  <aside class="sidebar">
+    <button id="sidebar-toggle" aria-label="Toggle sidebar">⟩</button>
+
+    <!-- pinned header -->
+    <header class="sidebar-header">
+      <h1>Calculus</h1>
+    </header>
+
+    <!-- written automatically from markdown chapters -->
+    <ul class="sidebar-list" id="toc-list"></ul>
+  </aside>
+
+  <main class="main-content">
+    <article class="textbook">
+      {{CONTENT}}
+    </article>
+  </main>
+
+  <!-- KaTeX auto renderer -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, { delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}] });">
+  </script>
+
+  <!-- webassembly and custom sript -->
+  <script src="wasm/learn.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

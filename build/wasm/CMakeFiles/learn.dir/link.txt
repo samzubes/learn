@@ -1,0 +1,1 @@
+/Users/sam/Documents/Personal/Main/Developing_Learn/emsdk/upstream/emscripten/em++ -sMODULARIZE=1 -sEXPORT_NAME=createLearn "-sEXPORTED_FUNCTIONS=['_evaluate_wave','_malloc','_free']" "-sEXPORTED_RUNTIME_METHODS=['ccall','cwrap','HEAPF64']" @CMakeFiles/learn.dir/objects1.rsp -o /Users/sam/Documents/Personal/Main/Developing_Learn/Learn/web/wasm/learn.js
