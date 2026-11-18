@@ -15,7 +15,7 @@ for filepath in sorted(glob.glob("chapters/*.md")):
 
 # put the contents into the html template
 final_html = template.replace("{{CONTENT}}", "\n".join(chapters_html))
-with open("web/index.html", "w", encoding="utf-8") as f:
+with open("docs/index.html", "w", encoding="utf-8") as f:
     f.write(final_html)
 
-print(f"Built {len(chapters_html)} chapter(s) -> web/index.html")
+print(f"Built {len(chapters_html)} chapter(s) -> docs/index.html")
