@@ -171,3 +171,12 @@ createLearn().then((Module) => {
     chart.update('none');
   });
 });
+
+// Handles the closing of all notes when you click
+document.addEventListener('click', (event) => {
+    document.querySelectorAll('details.note-popup[open]').forEach((note) => {
+      if (!note.contains(event.target)) {
+        note.removeAttribute('open');
+      }
+    });
+  });
